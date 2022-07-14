@@ -1,0 +1,111 @@
+/* GENERAL */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: auto;
+}
+
+h2, a {
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+/* FLEX */
+
+.section-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HOME */
+
+.section-home {
+    height: 65vw;
+    background-image: url(assets/pexels-jacoby-clarke-1294149.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position-y: 120px; */
+    color: rgb(255, 255, 255);
+}
+
+.section-home-txt {
+    font-size: 5rem;
+}
+
+/* ESTATES */
+
+.section-estates {
+    height: 50vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.div-estates {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-estates-item {
+    width: 20vw;
+    display: flex;
+    height: 10vw;
+    background-color: black;
+    color: wheat;
+}
+
+.item1{
+    background-image: url();
+}
+
+.item2{
+    background-image: url();
+}
+
+.item3{
+    background-image: url();
+}
+
+.item4{
+    background-image: url();
+}
+
+/* ABOUT */
+
+.section-about {
+    height: 50vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* PRESS */
+
+.section-press {
+    height: 10vw;
+}
+
+
+/* NEIGHBORHOODS */
+
+.section-neigghborhoods {
+    height: 50vw;
+}
+
+
+/* CONTACT */
+
+.section-contact {
+    height: 50vw;
+}
+
+.section-contact-text {
+    font-family: 'Tenor Sans', sans-serif;
+}
