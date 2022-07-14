@@ -157,20 +157,6 @@ h2, a {
     font-size: 1.5rem;
 }
 
-/* PRESS */
-
-.section-press {
-    height: 10vw;
-}
-
-
-/* NEIGHBORHOODS */
-
-.section-neigghborhoods {
-    height: 50vw;
-}
-
-
 /* TESTIMONIALS */
 
 .title-test {
@@ -187,6 +173,70 @@ h2, a {
     margin-top: 3vw;
 }
 
+/* NEIGHBORHOODS */
+
+.section-neighborhoods {
+    height: 65vw;
+}
+
+.div-neighborhoods {
+    flex-direction: row;
+}
+
+.neig {
+    background-size: cover;
+    color: white;
+    height: 25vw;
+    width: 50vw;
+}
+
+.neig:hover {
+    transition: all 300ms;
+    transform: scale(1.05);
+    background-size: var(transform);
+}
+
+.neig1 {
+    background-image: url(assets/pexels-antonio-cuellar-4366061.jpg);
+}
+
+.neig2 {
+    background-image: url(assets/fisherisland.webp);
+    background-position-y: -80px;
+}
+
+.neig3 {
+    background-image: url(assets/coconut.jpg);
+    background-position-y: -40px;
+}
+
+.neig4 {
+    background-image: url(assets/pexels-irasema-mcallister-6937301.jpg);
+    background-position-y: -210px;
+}
+
+.button-neig {
+    padding: 1.5vw;
+    margin-top: 1vw;
+    border: solid 1px black;
+    background-color: transparent;
+}
+
+.button-neig:hover {
+    background-color: black;
+    color: white;
+}
+
+.neig-title {
+    margin-top: 1vw;
+}
+
+.neig-txt {
+    font-size: 2.5rem;
+    background-color: transparent;
+    color: white;
+}
+
 /* CONTACT */
 
 .section-contact {
@@ -195,4 +245,13 @@ h2, a {
 
 .section-contact-text {
     font-family: 'Tenor Sans', sans-serif;
+}
+
+.form-text {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.form-label {
+    color: white;
 }

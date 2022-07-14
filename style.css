@@ -267,7 +267,7 @@ h3 {
 
 .section-testimo {
     height: 65vh;
-    background-color: #406ab1;
+    background-color: #01a0fcad;
     filter: grayscale(0.35);
     background-size: 100%;
     background-position-y: -200px;
@@ -285,6 +285,7 @@ h3 {
 }
 
 .card-testim {
+    height: 20vw;
     padding: 2vh;
     background-color: white;
 }
@@ -309,7 +310,7 @@ h6 {
 /* CONTACT */
 
 .section-contact {
-    background-image: url(assets/pexels-todd-trapani-3790058.jpg);    background-repeat: no-repeat;
+    background-image: url(assets/pexels-leah-kelley-9293249.jpg);    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
