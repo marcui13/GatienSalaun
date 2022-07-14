@@ -267,7 +267,7 @@ h3 {
 
 .section-testimo {
     height: 65vh;
-    background-image: url(assets/pexels-monica-silvestre-1034597.jpg);
+    background-color: #406ab1;
     filter: grayscale(0.35);
     background-size: 100%;
     background-position-y: -200px;

@@ -17,6 +17,20 @@ h2, a {
     font-family: 'Tenor Sans', sans-serif;
 }
 
+/* NAV */
+
+.icon-gatien {
+    height: 7vw;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+}
+
 /* FLEX */
 
 .section-flex {
@@ -29,20 +43,53 @@ h2, a {
 
 .section-home {
     height: 65vw;
-    background-image: url(assets/pexels-jacoby-clarke-1294149.jpg);
+    background-image: url(assets/pexels-antonio-cuellar-4366058.jpg);
+    
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position-y: 120px; */
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 .section-home-txt {
     font-size: 5rem;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+/* ABOUT */
+
+.section-about {
+    height: 54.6vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.div-about-txt {
+    width: 50vw;
+}
+
+.about-title {
+    font-size: 3rem;
+}
+
+.about-p {
+    width: 40vw;
+    margin-top: 5vw;
+    font-size: 1.5rem;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.gatien-img {
+    width: 50vw;
 }
 
 /* ESTATES */
 
 .section-estates {
+    margin-top: 5vw;
     height: 50vw;
     flex-direction: column;
     justify-content: space-evenly;
@@ -55,35 +102,59 @@ h2, a {
 }
 
 .div-estates-item {
-    width: 20vw;
+    width: 30vw;
+    height: 20vw;
     display: flex;
-    height: 10vw;
     background-color: black;
     color: wheat;
 }
 
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    background-size: cover;
+}
+
 .item1{
-    background-image: url();
+    background-image: url(assets/oceanfrontcondos.jpeg);
 }
 
 .item2{
-    background-image: url();
+    background-image: url(assets/housepools.jpeg);
 }
 
 .item3{
-    background-image: url();
+    background-image: url(assets/townhomes.jpeg);
 }
 
 .item4{
-    background-image: url();
+    background-image: url(assets/waterfront.jpeg);
 }
 
-/* ABOUT */
+.item5 {
+    background-image: url(assets/gated.jpg);
+}
 
-.section-about {
-    height: 50vw;
-    flex-direction: column;
-    justify-content: space-evenly;
+.item6 {
+    background-image: url(assets/golfhouse.jpeg);
+}
+
+.item-button {
+    border: solid white 3px;
+    padding: 1vw;
+}
+
+.item-button:hover {
+    background-color: white;
+}
+
+.item-button:hover > .button {
+    color: black;
+}
+
+.button {
+    color: white;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;  font-weight: 700;
+    font-size: 1.5rem;
 }
 
 /* PRESS */
@@ -99,6 +170,22 @@ h2, a {
     height: 50vw;
 }
 
+
+/* TESTIMONIALS */
+
+.title-test {
+    font-family: 'Tenor Sans', sans-serif;
+    color: white;
+}
+
+.testim-text {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.div-testim {
+    margin-top: 3vw;
+}
 
 /* CONTACT */
 
